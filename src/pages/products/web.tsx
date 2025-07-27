@@ -365,6 +365,7 @@ export default function NFCBoardsPage() {
           </div>
         </div>
       </section>
+
       <section className="space-y-8 py-12 px-4 md:px-8">
         <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
           Important Suggestions
@@ -420,6 +421,7 @@ export default function NFCBoardsPage() {
           </div>
         </div>
       </section>
+
       <section className="space-y-8 py-12 px-4 md:px-8">
         <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
           Thermoforming
@@ -463,10 +465,11 @@ export default function NFCBoardsPage() {
           </div>
         </div>
       </section>
+      
       <section className="space-y-4  py-12 px-4 md:px-8">
-        <h2 className="text-2xl font-bold">Why NFC?</h2>
-        <div className="overflow-auto">
-          <table className="min-w-full border border-gray-200 text-sm rounded-lg overflow-hidden">
+        <h2 className="text-3xl font-bold">Why NFC?</h2>
+        <div className="w-full overflow-x-auto">
+          <table className="min-w-[600px] w-full border border-gray-200 text-xs sm:text-sm text-left rounded-lg overflow-hidden">
             <thead className="bg-gray-200">
               <tr>
                 <th className="px-4 py-2 border border-gray-100">Issue with MDF/HDF/Plywood</th>
@@ -562,25 +565,7 @@ export default function NFCBoardsPage() {
         </div>
       </section>
 
-      <section className="border-t pt-12 text-center space-y-6 " >
-        <h2 className="text-3xl font-bold">Get in Touch</h2>
-        <p className="text-gray-600">
-          Free samples, spec sheets, private label options — let's collaborate.
-        </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl flex items-center gap-2 transition">
-            <Phone size={18} /> Contact Us
-          </button>
-          <button className="border border-gray-300 hover:border-gray-500 text-gray-800 px-6 py-3 rounded-xl flex items-center gap-2 transition">
-            <Download size={18} /> Download Brochure
-          </button>
-        </div>
-      </section>
 
-      {/* Footer */}
-      <footer className="mt-16 border-t pt-6 text-center text-sm text-gray-500">
-        &copy; {new Date().getFullYear()} Apexemims — Built with rice, not trees.
-      </footer>
     </div>
   );
 

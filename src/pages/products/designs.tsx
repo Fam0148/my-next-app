@@ -315,34 +315,6 @@ export default function TShirtManufacturingPage() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="border-t pt-12 text-center space-y-6">
-        <h2 className="text-3xl font-bold">Get in Touch</h2>
-        <p className="text-gray-600">
-          Want to source your own apparel brand in Canada?
-        </p>
-        <ul className="text-gray-700 list-disc list-inside space-y-2 mb-6">
-          <li>Request sample kits or product catalogs</li>
-          <li>Get MOQ and pricing for bulk orders</li>
-          <li>Apply for private label or white-label partnerships</li>
-        </ul>
-        <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl flex items-center gap-2 transition">
-            <Phone size={18} /> Contact Us
-          </button>
-          <button className="border border-gray-300 hover:border-gray-500 text-gray-800 px-6 py-3 rounded-xl flex items-center gap-2 transition">
-            <Download size={18} /> Download Brochure
-          </button>
-          <button className="border border-gray-300 hover:border-gray-500 text-gray-800 px-6 py-3 rounded-xl flex items-center gap-2 transition">
-            <Tag size={18} /> Start Private Label Now
-          </button>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="mt-16 border-t pt-6 text-center text-sm text-gray-500">
-        &copy; {new Date().getFullYear()} [Your Company Name] — Empowering your apparel brand.
-      </footer>
     </div>
   );
 }
