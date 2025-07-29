@@ -18,9 +18,9 @@ export const SmartDistribution = () => {
   return (
     <section
       ref={ref}
-      className="bg-[#112A46] text-white h-[70vh] flex items-center px-4 md:px-10 lg:px-24"
+      className="bg-[#112A46] text-white py-16 md:py-20 lg:py-24 flex items-center px-4 md:px-10 lg:px-24 min-h-screen" // Adjusted padding and added min-h-screen
     >
-      <div className="grid md:grid-cols-2 items-center gap-12 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12 md:gap-16 w-full max-w-7xl mx-auto"> {/* Changed to grid-cols-1 for mobile, adjusted gap, added max-w and mx-auto */}
         {/* Left Column: Text */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -28,20 +28,20 @@ export const SmartDistribution = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <p className="uppercase text-sm font-semibold tracking-wider text-indigo-200 mb-2">
-            Smart Sourcing and procurement
+          <p className="uppercase text-xs sm:text-sm font-semibold tracking-wider text-indigo-200 mb-2"> {/* Adjusted text size for smaller screens */}
+            Smart Sourcing and Procurement
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
+          <h2 className="text-3xl leading-tight sm:text-4xl md:text-5xl font-extrabold mb-4 sm:mb-6"> {/* Adjusted text size and line height */}
             Source Innovative Global Products & Boost Your Shelf Margins
           </h2>
-          <p className="max-w-xl text-md md:text-lg text-indigo-100">
-            We help disributors, retailers and wholesale source trending, clean-labeled products directly from trusted manufactures. Our process reduces your sourcing costs and increases your profitability with full compliance and support.
+          <p className="max-w-xl text-base md:text-lg text-indigo-100"> {/* Adjusted text size */}
+            We help distributors, retailers, and wholesalers source trending, clean-labeled products directly from trusted manufacturers. Our process reduces your sourcing costs and increases your profitability with full compliance and support.
           </p>
         </motion.div>
 
         {/* Right Column: Parallax Image */}
         <motion.div
-          className="relative w-full h-64 md:h-[450px]"
+          className="relative w-full h-64 sm:h-80 md:h-[450px] lg:h-[550px] mt-8 md:mt-0" // Adjusted image heights for different screens and added margin-top for mobile
           style={{ y: smoothY }}
         >
           <div className="w-full h-full rounded-3xl overflow-hidden">
