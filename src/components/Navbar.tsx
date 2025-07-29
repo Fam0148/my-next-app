@@ -308,19 +308,19 @@ export default function Navbar() {
                         href="/products/web"
                         className="block px-4 py-2 text-sm text-white hover:bg-zinc-800"
                       >
-                        NFC Boards
+                        Construction
                       </Link>
                       <Link
                         href="/products/mobile"
                         className="block px-4 py-2 text-sm text-white hover:bg-zinc-800"
                       >
-                        FMGC
+                        FMCG
                       </Link>
                       <Link
                         href="/products/designs"
                         className="block px-4 py-2 text-sm text-white hover:bg-zinc-800"
                       >
-                        T-Shirt Manufacture
+                        Textiles
                       </Link>
                     </div>
                   </div>

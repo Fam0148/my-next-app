@@ -47,7 +47,7 @@ export const DistributionHero = () => (
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.6 }}
       >
-        We help brands enter and scale in the Canadian market
+        We help brands enter and scale in the global market
       </motion.h2>
 
       <motion.p

@@ -7,17 +7,17 @@ const servicePoints = [
   {
     icon: <SparklesIcon className="w-8 h-8 text-indigo-600" />,
     title: "Curated Global Sourcing & Product Innovation",
-    desc: "We identify winning products and manufacturers, helping brands stand out with unique, high-demand assortments.",
+    desc: "We identify winning products and manufacturers, helping business stand out with unique, high-demand assortments.",
   },
   {
     icon: <ClipboardDocumentCheckIcon className="w-8 h-8 text-indigo-600" />,
     title: "Regulatory-Ready, Retail-Compliant Product Delivery",
-    desc: "We manage all certifications, packaging compliance, and logistics to meet Canadian retail & import standards.",
+    desc: "We manage all certifications, packaging compliance, and logistics to meet the required retail & import standards.",
   },
   {
     icon: <ShoppingBagIcon className="w-8 h-8 text-indigo-600" />,
     title: "Retail & Trade Channel Distribution",
-    desc: "Get listed in major retail chains, quick commerce platforms, and independent distributors across Canada.",
+    desc: "Get listed in major retail chains, quick commerce platforms, and independent distributors.",
   },
   {
     icon: <UserGroupIcon className="w-8 h-8 text-indigo-600" />,

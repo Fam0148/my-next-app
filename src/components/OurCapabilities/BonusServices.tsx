@@ -6,28 +6,28 @@ const services = [
   {
     title: "Retail & Consumer Marketing",
     description:
-      "Drive visibility with Canadian retailers through shelf design, promotions, and co-branded events.",
+      "Make Noise on the Shelf and Online We help brands stand out with custom marketing strategies tailored for global retail environments. From in-store promotions to co-branded campaigns, we bridge the gap between your product and the modern consumer anywhere in the world.",
     gradient: "from-white-600 to-blue-500",
     emoji: "📢",
   },
   {
     title: "E-commerce & Logistics",
     description:
-      "Marketplace onboarding, fulfillment, and last-mile delivery for digital-first growth.",
+      "Global Fulfillment for a Digital-First World Launch on major marketplaces and ship at scale. Our logistics network enables smooth onboarding, fulfillment and last-mile delivery perfect for omnichannel strategies across continents.",
   gradient: "from-white-600 to-blue-500",
     emoji: "🚚",
   },
   {
     title: "Product Launch Partnerships",
     description:
-      "Accelerate your rollout with campaign planning and early retail access.",
+      "Speed Meets Strategy Fast-track your international rollout with go-to-market planning, early access to distribution partners, and retail connections. We’re not just a logistics provider we’re your global launchpad.",
 gradient: "from-white-600 to-blue-500",
     emoji: "🚀",
   },
   {
     title: "Monogram Display & Packaging",
     description:
-      "Retail-ready designs with shelf-dominating branding and monogrammed merchandising.",
+      "Brand-Led Shelf Dominance We design and deliver packaging solutions that resonate with regional markets. From monogrammed displays to custom merchandising, we ensure your product commands attention and meets regulatory standards.",
    gradient: "from-white-600 to-blue-500",
     emoji: "🎁",
   },

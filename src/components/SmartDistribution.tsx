@@ -29,16 +29,13 @@ export const SmartDistribution = () => {
           viewport={{ once: true }}
         >
           <p className="uppercase text-sm font-semibold tracking-wider text-indigo-200 mb-2">
-            Smart Distribution
+            Smart Sourcing and procurement
           </p>
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
-            Source Innovative Global Products & Boost Your Shelf Margins by 50%
+            Source Innovative Global Products & Boost Your Shelf Margins
           </h2>
           <p className="max-w-xl text-md md:text-lg text-indigo-100">
-            We help Canadian retailers and wholesalers source trending,
-            clean-labeled products directly from trusted manufacturers. Our
-            process reduces your sourcing costs and increases your
-            profitability — with full compliance and support.
+            We help disributors, retailers and wholesale source trending, clean-labeled products directly from trusted manufactures. Our process reduces your sourcing costs and increases your profitability with full compliance and support.
           </p>
         </motion.div>
 

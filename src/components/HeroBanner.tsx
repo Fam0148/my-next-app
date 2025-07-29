@@ -117,7 +117,7 @@ export const HeroBanner = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          ACCELERATE YOUR BRAND'S REACH IN CANADA
+          Expand your reach globally
         </motion.p>
 
         <motion.h1
@@ -126,18 +126,18 @@ export const HeroBanner = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2 }}
         >
-          Smart Distribution <br />
+          Smart Supply Chain <br />
           <span className="text-indigo-400">Tailored for Ambitious Brands</span>
         </motion.h1>
 
         <motion.p
-          className="text-md md:text-lg text-gray-200 mb-6"
+          className="text-md md:text-xl text-gray-200 mb-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          We specialize in getting your products on Canadian shelves—retail chains, quick commerce,
-          and beyond. From India to Canada, we bridge global supply with local demand.
+          We specialize in getting your products on global market-retail chains, quick commerce
+          and beyond. We bridge global supply with local demand.
         </motion.p>
 
         <motion.a

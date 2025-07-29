@@ -58,7 +58,7 @@ export default function NFCBoardsPage() {
               <tr className="bg-gray-200">
                 <th className="px-2 sm:px-4 py-2 border border-gray-100">Product Name</th>
                 <th className="px-2 sm:px-4 py-2 border border-gray-100">Thickness (mm)</th>
-                <th className="px-2 sm:px-4 py-2 border border-gray-100">Sizes Available (ft)</th>
+                <th className="px-2 sm:px-4 py-2 border border-gray-100">Size (ft)</th>
                 <th className="px-2 sm:px-4 py-2 border border-gray-100">Application</th>
               </tr>
             </thead>
@@ -144,6 +144,7 @@ export default function NFCBoardsPage() {
         </div>
       </section>
 
+
       <section className="space-y-8 py-12 px-4 md:px-8">
         <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
           Applications
@@ -212,6 +213,7 @@ export default function NFCBoardsPage() {
         </div>
       </section>
 
+
       <section className="space-y-8 py-12 px-4 md:px-8">
         <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
           Features
@@ -262,7 +264,7 @@ export default function NFCBoardsPage() {
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
-              ULC-S102 compliant — slows fire spread and adds safety assurance.
+              Carries required certifications and ensures slow fire and smoke spread and ensures safety as required.
             </p>
           </div>
 
@@ -291,6 +293,8 @@ export default function NFCBoardsPage() {
           </div>
         </div>
       </section>
+
+
 
       <section className="space-y-8 py-12 px-4 md:px-8">
         <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
@@ -329,11 +333,11 @@ export default function NFCBoardsPage() {
             <div className="flex items-center gap-3 mb-2">
               <FileCheck2 className="text-indigo-600 w-6 h-6" />
               <h3 className="text-lg font-bold text-gray-800">
-                Meets IS:10148 Toxicity Standards
+                Meets Toxicity Standards
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
-              Fully compliant with Indian safety regulations for chemical toxicity.
+              Fully compliant with safety regulations for VOC Emissions.
             </p>
           </div>
 
@@ -343,124 +347,11 @@ export default function NFCBoardsPage() {
             <div className="flex items-center gap-3 mb-2">
               <ShieldCheck className="text-blue-600 w-6 h-6" />
               <h3 className="text-lg font-bold text-gray-800">
-                GREENGUARD & EPD Compliant
+                GREENGUARD, EPD Compliant & LEED® Credit Eligible
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
-              Certified low-emission and environmentally transparent — safe for indoor use.
-            </p>
-          </div>
-
-          {/* 5 — full width on lg screens */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition lg:col-span-1">
-            <div className="flex items-center gap-3 mb-2">
-              <BadgeCheck className="text-yellow-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                LEED® Credit Eligible
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Supports green building certifications — eco-friendly for modern architecture.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="space-y-8 py-12 px-4 md:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
-          Important Suggestions
-        </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* UV Resistant Coating */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-              <Sun className="text-yellow-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                UV-Resistant Coating
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Apply a UV-protective coating for outdoor use to prevent fading and degradation.
-            </p>
-          </div>
-          {/* Fasteners / Adhesives */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-              <Wrench className="text-indigo-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                Fasteners or Adhesives
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Use mechanical fasteners or wood-grade adhesives for secure installation.
-            </p>
-          </div>
-          {/* Cutting Tools */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-            <ScissorsSquareDashedBottom className="text-green-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                Use Carbide Tools
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              For smooth and precise cuts, use carbide-tipped blades or tools.
-            </p>
-          </div>
-          {/* Fire Safety */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-              <Flame className="text-red-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                Flame Exposure Warning
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Avoid exposing the material to direct flame unless fire-treated properly.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="space-y-8 py-12 px-4 md:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
-          Thermoforming
-        </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Custom Curves */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-              <Ruler className="text-purple-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                Custom Curves & Moulds
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Enables creative, molded shapes with smooth custom curves and detailing.
-            </p>
-          </div>
-          {/* CNC / Router Ready */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-              <Wrench className="text-blue-600 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                CNC & Router Friendly
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Designed for precision jobs—compatible with CNC machines and routers.
-            </p>
-          </div>
-          {/* Optimal Temperature */}
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow hover:shadow-md transition">
-            <div className="flex items-center gap-3 mb-2">
-              <ThermometerSun className="text-red-500 w-6 h-6" />
-              <h3 className="text-lg font-bold text-gray-800">
-                Best at 130–150°C
-              </h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Thermoforming yields best results between 130°C and 150°C for optimal shaping.
+              Environmentally transparent and supports green building certification requirements to be eco friendly for merdern architercture.
             </p>
           </div>
         </div>

@@ -11,15 +11,16 @@ const AboutUs = () => (
     >
       <h2 className="text-3xl font-bold mb-4">About Us</h2>
       <p className="max-w-3xl text-lg leading-relaxed">
-        Bridging the Best with the Canadian Market. <br />
-        <strong>Global Reach, Local Expertise. Inventory Management</strong>
+        <strong>Global Products. Retail-Ready. Seamlessly Delivered.</strong>
         <br /><br />
-        We’re a global distribution company based in Canada, operating with a strong sourcing backbone in Asia. Our mission is simple:
-        To bring high-quality, retail-ready FMCG products to Canadian shelves—from healthy snacks like Flyberry vacuum-fried chips to future-ready categories in skincare, home materials, and more.
+        Apex Exims is a globally connected import-export and distribution company headquartered in Canada with strong sourcing roots across Asia. We specialize in bridging world-class FMCG, fashion and lifestyle brands with retailers and distributors across North America and beyond.
         <br /><br />
-        We understand the gap between authentic product supply and Canadian compliance standards. That’s why we go beyond importing—we deliver fully compliant, bilingual-packaged, and shelf-ready products designed to succeed in Canadian retail.
+        From vacuum-fried snacks and organic skincare to natural fibre construction boards and high-performance apparel, we deliver retail-ready, compliant and high-demand products that meet evolving global consumer trends.
         <br /><br />
-        Whether you’re a supermarket buyer, a Q-commerce platform, or a niche distributor, we’re here to make sourcing smoother, safer, and smarter.
+        We don’t just move goods we manage entire product lifecycles from sourcing and certification to packaging, warehousing and channel placement. 
+        <br /><br />
+        <strong>Our focus is clear - Make international products shelf-ready and market-successful. </strong>
+        Whether you're a supermarket buyer, an online marketplace, a Horeca chain, or a niche D2C brand, we help you source smarter, launch faster and scale sustainably.
       </p>
     </motion.div>
   </section>

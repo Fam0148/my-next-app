@@ -8,23 +8,21 @@ const OurTeam = () => (
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="bg-white rounded-2xl p-8 shadow-lg max-w-5xl mx-auto"
+      className="bg-white rounded-2xl p-8 shadow-lg max-w-5xl mx-left"
     >
       <h2 className="text-3xl font-bold mb-4 text-gray-800">Our Team</h2>
       <p className="text-gray-700 mb-4">
-        Behind every shipment and retail listing is a passionate team that understands both Asian manufacturing and Canadian regulations.
+        Cross-Border. Cross-Functional. Built for Scale.
+Every product that reaches a shelf passes through the hands of specialists who understand the nuances of both manufacturing and market demand. Our team blends global insight with local precision
       </p>
       <ul className="list-disc list-inside space-y-2 text-gray-600">
-        <li>Sourcing experts in Asia working directly with trusted factories</li>
-        <li>Canadian distribution & compliance partners managing warehousing & buyer relations</li>
-        <li>Cross-border team includes:
-          <ul className="list-[circle] list-inside ml-4 mt-1">
-            <li>FMCG retail specialists</li>
-            <li>Packaging & compliance advisors</li>
-            <li>Product scouts & category managers</li>
-            <li>Export-import consultants</li>
-          </ul>
-        </li>
+        <li> Sourcing Specialists based in Asia, working directly with vetted factories.</li>
+        <li>Compliance & Packaging Advisors ensuring your products meet retail regulations and labeling laws.</li>
+        <li>Retail Experts managing warehousing, buyer relations, and distribution partnerships.</li>
+        <li>Product Scouts & Category Managers identifying trends and high-potential product categories.</li>
+        <li>Export-Import Consultants ensuring smooth cross-border documentation and logistics</li>
+        <li><strong>Together, we simplify the complex, reduce time-to-market and ensure every shipment is a step toward lasting retail success.</strong></li>
+    
       </ul>
     </motion.div>
   </section>

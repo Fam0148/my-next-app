@@ -31,16 +31,16 @@ export default function TShirtManufacturingPage() {
           transition={{ duration: 0.8 }}
           className="text-xl sm:text-3xl md:text-4xl font-bold text-center leading-tight"
         >
-          T-Shirt Manufacturing & Textile Sourcing Canada <br></br>
-          Your Partner for Quality Apparel Production
+          From Threads to Trends <br />
+          Smart Apparel Manufacturing Starts Here.
         </motion.h1>
       </section>
 
       {/* About Section */}
       <section className="text-center py-8 px-4 md:px-8 space-y-4">
         <h2 className="text-3xl font-bold">About Us</h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-          We are a leading textile distribution company, connecting clients with international manufacturing and sourcing solutions to bring your apparel brand to life.
+        <p className="text-lg text-gray-700 max-w-xl mx-auto leading-relaxed">
+        We connect clients with international manufacturing and sourcing solutions to bring your apparel brand to life.
         </p>
         
       </section>
@@ -57,29 +57,24 @@ export default function TShirtManufacturingPage() {
               <tr className="bg-gray-200">
                 <th className="px-2 sm:px-4 py-2 border border-gray-100">Fabric Type</th>
                 <th className="px-2 sm:px-4 py-2 border border-gray-100">Description</th>
-                <th className="px-2 sm:px-4 py-2 border border-gray-100">Certifications</th>
               </tr>
             </thead>
             <tbody>
               <tr className="bg-white">
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Organic Cotton</td>
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Soft, breathable, eco-certified</td>
-                <td className="px-2 sm:px-4 py-2 border border-gray-100">GOTS, OEKO-TEX</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Recycled Polyester</td>
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Sustainable alternative to virgin poly</td>
-                <td className="px-2 sm:px-4 py-2 border border-gray-100">GRS</td>
               </tr>
               <tr className="bg-white">
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Cotton-Lycra Blend</td>
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Flexible, stretch-friendly</td>
-                <td className="px-2 sm:px-4 py-2 border border-gray-100">OEKO-TEX Standard 100</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">OEKO-TEX (select)</td>
                 <td className="px-2 sm:px-4 py-2 border border-gray-100">Various fabric types meeting OEKO-TEX standards</td>
-                <td className="px-2 sm:px-4 py-2 border border-gray-100">OEKO-TEX Standard 100</td>
               </tr>
             </tbody>
           </table>
@@ -184,9 +179,6 @@ export default function TShirtManufacturingPage() {
         <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
           People We Serve
         </h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-left leading-relaxed ">
-          We proudly serve Canadian:
-        </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
           <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition duration-200">
@@ -295,24 +287,6 @@ export default function TShirtManufacturingPage() {
           </div>
         </div>
         
-      </section>
-
-      {/* Blog Section */}
-      <section className="space-y-4 py-12 px-4 md:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
-          Our Blog
-        </h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-left leading-relaxed">
-          Stay informed with insights from our experts. Topics include:
-        </p>
-        <div className="grid md:grid-cols-2 gap-4">
-          {blogTopics.map((topic, idx) => (
-            <div key={idx} className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition flex items-center gap-3">
-              <BookText className="w-5 h-5 text-gray-600" />
-              <p className="text-base font-medium text-gray-800">{topic.title}</p>
-            </div>
-          ))}
-        </div>
       </section>
 
     </div>
