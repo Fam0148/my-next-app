@@ -1,3 +1,4 @@
+'use client'
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Apple, Award, Package, Factory, Droplets, Leaf, Recycle, ShieldCheck, Ruler, Home, Layout, Briefcase, Building2, ThermometerSun, BugOff, Smile, Flame, Sun, Hammer, FileCheck2, BadgeCheck, Wrench, ScissorsSquareDashedBottom, FileText, PackageSearch, Mail, DownloadCloud, Phone, Download,

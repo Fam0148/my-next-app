@@ -1,3 +1,4 @@
+'use client'
 import { motion, AnimatePresence } from 'framer-motion';
 
 import { Leaf, Recycle, ShieldCheck, Ruler, Home, Layout, Droplets, Briefcase, Building2, ThermometerSun, BugOff, Smile, Flame, Sun, Hammer, FileCheck2, BadgeCheck, Wrench, ScissorsSquareDashedBottom, FileText, PackageSearch, Mail, DownloadCloud, Phone, Download } from 'lucide-react';
@@ -343,7 +344,7 @@ export default function NFCBoardsPage() {
 
           {/* 4 */}
 
-          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition lg:col-span-2">
+          <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition lg:col-span-3">
             <div className="flex items-center gap-3 mb-2">
               <ShieldCheck className="text-blue-600 w-6 h-6" />
               <h3 className="text-lg font-bold text-gray-800">

@@ -305,19 +305,19 @@ export default function Navbar() {
                   <div className="absolute left-0 mt-2 w-48 bg-zinc-900 rounded-md shadow-lg opacity-0 scale-95 invisible group-hover:visible group-hover:opacity-100 group-hover:scale-100 transition-all duration-200 z-50">
                     <div className="py-2">
                       <Link
-                        href="/products/web"
+                        href="/construction"
                         className="block px-4 py-2 text-sm text-white hover:bg-zinc-800"
                       >
                         Construction
                       </Link>
                       <Link
-                        href="/products/mobile"
+                        href="/fmcg"
                         className="block px-4 py-2 text-sm text-white hover:bg-zinc-800"
                       >
                         FMCG
                       </Link>
                       <Link
-                        href="/products/designs"
+                        href="/textiles"
                         className="block px-4 py-2 text-sm text-white hover:bg-zinc-800"
                       >
                         Textiles

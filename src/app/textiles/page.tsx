@@ -1,3 +1,4 @@
+'use client'
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Shirt, Factory, GitPullRequest, Ruler, Users, Package, Box, Tag, Award,
